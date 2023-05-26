@@ -1,0 +1,70 @@
+@import url("https:fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --main-color: white;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+.footer {
+  padding: 2rem 3%;
+}
+.social-media a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  background: transparent;
+  border: 0.2rem solid var(--main-color);
+  text-decoration: none;
+  border-radius: 50%;
+  font-size: 2rem;
+  color: var(--main-color);
+  margin: 3rem 1.5rem 3rem 0;
+  transition: 0.5s ease;
+}
+.social-media a:hover {
+  background-color: var(--mqin-color);
+  color: var(--second-bg-color);
+  box-shadow: 0 0 1rem var(--main-color);
+}
+.input_text {
+  outline: none;
+  background: aqua;
+}
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #01105b;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    to right,
+    rgba(1, 16, 91, 0.96),
+    rgba(126, 68, 85, 0.96)
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(
+    to right,
+    rgba(1, 16, 91, 0.96),
+    rgba(126, 68, 85, 0.96)
+  );
+}
+@media (max-width: 886px) {
+  .footer {
+    padding: 2rem 3%;
+  }
+}
